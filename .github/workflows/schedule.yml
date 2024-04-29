@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS }}
           user: naseke
-          template: terminal
+          # template: terminal
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Paris
           plugin_achievements: yes
